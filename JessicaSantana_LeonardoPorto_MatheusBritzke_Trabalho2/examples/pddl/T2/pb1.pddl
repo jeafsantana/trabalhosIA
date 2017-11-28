@@ -1,0 +1,6 @@
+(define (problem pb1)
+  (:domain agente-de-iluminacao)
+  (:objects s1 s2 s3 s4 d c a e l)
+  (:init (Sala s1) (LampadaQueimada s1) (Deposito d) (Escada e) (ForaDaEscada e) (Corredor c) (agente a)  (PosAtual  a s1) (Lampada l) (CARREGA1 l) (Escada e) (CARREGA2 e) )
+  (:goal(LampadaOK s1))
+  )
